@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión en Instagram</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            background-color: #fafafa;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .content-wrapper {
+            display: flex;
+            align-items: flex-start; /* Alinea los elementos verticalmente al principio */
+        }
+
+        .container-wrapper {
+            display: flex;
+            flex-direction: column; /* Organiza los contenedores uno debajo del otro */
+            align-items: center; /* Centra los contenedores horizontalmente */
+        }
+
+        .container {
+            width: 120%;
+            max-width: 400px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 10px; /* Espacio entre los contenedores */
+        }
+        
+        h2 {
+            text-align: center;
+            font-family: "Satisfy", cursive; /* Utiliza la fuente Roboto */
+            font-weight: normal; /* Establece el peso de la fuente a normal */
+            font-size: 40px; /* Tamaño de fuente del título */
+            margin-bottom: 20px; /* Espaciado inferior para el título */
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+        input[type="text"],
+        input[type="password"],
+        button {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #3897f0;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #4081eb;
+        }
+        .facebook-link,
+        .forgot-password-link {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .facebook-link a,
+        .forgot-password-link a {
+            color: #385185;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .facebook-link a:hover,
+        .forgot-password-link a:hover {
+            text-decoration: underline;
+        }
+
+        .satisfy-regular {
+            font-family: "Satisfy", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .image-wrapper {
+            margin-right: 60px; /* Espacio a la derecha de la imagen */
+        }
+
+        @media only screen and (max-width: 845px), (max-height: 600px) {
+            .image-wrapper {
+                display: none; /* Oculta la imagen wrapper */
+            }
+
+            .container {
+                width: 100%; /* Ajusta el ancho del contenedor al 100% */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content-wrapper">
+        <div class="image-wrapper">
+            <img src="IMG_20240410_001134_400.jpg" alt="Instagram Logo" style="width: 450px;">
+        </div>
+        <div class="container-wrapper">
+            <div class="container">
+                <h2>Instagram</h2>
+                <form action="">
+                    <div class="form-group">
+                        <input type="text" placeholder="Nombre de usuario">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Contraseña">
+                    </div>
+                    <button type="submit">Entrar</button>
+                </form>
+                <div class="facebook-link">
+                    <a href="#">Iniciar sesión con Facebook</a>
+                </div>
+                <div class="forgot-password-link">
+                    <a href="#">¿Has olvidado la contraseña?</a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="forgot-password-link">
+                    <span>¿No tienes cuenta? </span>
+                    <a href="#">Regístrate</a>
+                </div>
+            </div>
+            <p>Descarga la aplicacion</p>
+            <div class="images">
+                <img src="xOhODS7viZl.png" style="width: 136px;">
+                <img src="LjIQEL8csb0.png" style="width: 112px;">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
